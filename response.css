@@ -1,0 +1,74 @@
+@media screen and (max-width:900px){
+    .word{
+        margin-bottom: 1rem;
+    }
+    .guessed{
+        margin: 0;
+    }
+    .info{
+        margin-top: 0.2rem;
+    }
+    .keyboard{
+        margin: 0.2rem 1rem;
+        display: flex; 
+        gap: 0.2rem;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0.2rem 1rem;
+        bottom: -10px;
+    }
+}
+@media screen and (max-width:600px){
+    .border{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box1{
+        width: 44vh;
+        height: 27vh;
+    }
+    .box2{
+    margin-top: 4rem;
+    width: 43vh;
+    height: 70vh;
+    }
+    .letter {
+        width: 23px;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:500px){
+    .box1 {
+        width: 38vh;
+    }
+    .box2 {
+        margin-top: 6rem;
+    }
+    #hint{
+        padding: 0 3.5rem;
+    }
+}
+@media screen and (max-width:400px){
+    button{
+        width: 2rem ;
+        height: 1.6rem;
+    }
+    .container{
+        width: 99vw;
+        height: 90vh;
+    }
+    .border{
+        width: 99vw;
+        height: 98vh;
+    }
+    .box2 {
+        margin-top: 3rem;
+    }
+    /* .keyboard{
+        gap: 0.1rem;
+    } */
+}
